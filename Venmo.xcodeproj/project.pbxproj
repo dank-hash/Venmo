@@ -14,6 +14,7 @@
 		B2BC1C232BD438C000E49291 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C222BD438C000E49291 /* Expenses.swift */; };
 		B2BC1C252BD438E600E49291 /* Reports.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C242BD438E600E49291 /* Reports.swift */; };
 		B2BC1C282BD7135A00E49291 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C272BD7135A00E49291 /* Settings.swift */; };
+		B2BC1C2A2BD7179B00E49291 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C292BD7179B00E49291 /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B2BC1C222BD438C000E49291 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		B2BC1C242BD438E600E49291 /* Reports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reports.swift; sourceTree = "<group>"; };
 		B2BC1C272BD7135A00E49291 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B2BC1C292BD7179B00E49291 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				B2BC1C222BD438C000E49291 /* Expenses.swift */,
 				B2BC1C242BD438E600E49291 /* Reports.swift */,
 				B2BC1C272BD7135A00E49291 /* Settings.swift */,
+				B2BC1C292BD7179B00E49291 /* Categories.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				B2BC1C132BD4378D00E49291 /* VenmoApp.swift in Sources */,
 				B2BC1C252BD438E600E49291 /* Reports.swift in Sources */,
 				B2BC1C282BD7135A00E49291 /* Settings.swift in Sources */,
+				B2BC1C2A2BD7179B00E49291 /* Categories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
