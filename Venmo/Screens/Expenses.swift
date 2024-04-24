@@ -18,9 +18,6 @@ struct Expenses: View {
     }
 }
 
-struct Expenses_Previews: PreviewProvider {
-    static var previews: some View {
-        Expenses()
-            .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
-    }
+#Preview {
+    Expenses()
 }

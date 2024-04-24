@@ -7,24 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2267A0D2BD96DF900F3C531 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B2267A0C2BD96DF900F3C531 /* Realm */; };
+		B2267A0F2BD96DF900F3C531 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B2267A0E2BD96DF900F3C531 /* RealmSwift */; };
+		B2267A112BD97D5B00F3C531 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2267A102BD97D5B00F3C531 /* RealmManager.swift */; };
+		B2267A152BD97EE100F3C531 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2267A142BD97EE100F3C531 /* Expense.swift */; };
+		B2267A182BD9887200F3C531 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2267A172BD9887200F3C531 /* Color.swift */; };
 		B2BC1C132BD4378D00E49291 /* VenmoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C122BD4378D00E49291 /* VenmoApp.swift */; };
 		B2BC1C152BD4378D00E49291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C142BD4378D00E49291 /* ContentView.swift */; };
 		B2BC1C172BD4379000E49291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BC1C162BD4379000E49291 /* Assets.xcassets */; };
-		B2BC1C1A2BD4379000E49291 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BC1C192BD4379000E49291 /* Preview Assets.xcassets */; };
 		B2BC1C232BD438C000E49291 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C222BD438C000E49291 /* Expenses.swift */; };
 		B2BC1C252BD438E600E49291 /* Reports.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C242BD438E600E49291 /* Reports.swift */; };
 		B2BC1C282BD7135A00E49291 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C272BD7135A00E49291 /* Settings.swift */; };
+		B2BC1C2A2BD7179B00E49291 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C292BD7179B00E49291 /* Categories.swift */; };
+		B2BC1C2D2BD8204300E49291 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BC1C2C2BD8204300E49291 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2267A102BD97D5B00F3C531 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = SOURCE_ROOT; };
+		B2267A142BD97EE100F3C531 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		B2267A172BD9887200F3C531 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		B2BC1C0F2BD4378D00E49291 /* Venmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BC1C122BD4378D00E49291 /* VenmoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoApp.swift; sourceTree = "<group>"; };
 		B2BC1C142BD4378D00E49291 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2BC1C162BD4379000E49291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2BC1C192BD4379000E49291 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2BC1C222BD438C000E49291 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		B2BC1C242BD438E600E49291 /* Reports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reports.swift; sourceTree = "<group>"; };
 		B2BC1C272BD7135A00E49291 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B2BC1C292BD7179B00E49291 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		B2BC1C2C2BD8204300E49291 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,12 +42,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2267A0F2BD96DF900F3C531 /* RealmSwift in Frameworks */,
+				B2267A0D2BD96DF900F3C531 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2267A162BD9886000F3C531 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B2267A172BD9887200F3C531 /* Color.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		B2BC1C062BD4378D00E49291 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +77,15 @@
 		B2BC1C112BD4378D00E49291 /* Venmo */ = {
 			isa = PBXGroup;
 			children = (
+				B2267A162BD9886000F3C531 /* Utilities */,
+				B2BC1C182BD4379000E49291 /* Preview Content */,
+				B2BC1C2B2BD8203000E49291 /* Models */,
 				B2BC1C212BD4387B00E49291 /* Components */,
 				B2BC1C202BD4386D00E49291 /* Screens */,
 				B2BC1C122BD4378D00E49291 /* VenmoApp.swift */,
 				B2BC1C142BD4378D00E49291 /* ContentView.swift */,
 				B2BC1C162BD4379000E49291 /* Assets.xcassets */,
-				B2BC1C182BD4379000E49291 /* Preview Content */,
+				B2267A102BD97D5B00F3C531 /* RealmManager.swift */,
 			);
 			path = Venmo;
 			sourceTree = "<group>";
@@ -70,7 +93,6 @@
 		B2BC1C182BD4379000E49291 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B2BC1C192BD4379000E49291 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -81,6 +103,7 @@
 				B2BC1C222BD438C000E49291 /* Expenses.swift */,
 				B2BC1C242BD438E600E49291 /* Reports.swift */,
 				B2BC1C272BD7135A00E49291 /* Settings.swift */,
+				B2BC1C292BD7179B00E49291 /* Categories.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -90,6 +113,15 @@
 			children = (
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		B2BC1C2B2BD8203000E49291 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2BC1C2C2BD8204300E49291 /* Category.swift */,
+				B2267A142BD97EE100F3C531 /* Expense.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +140,10 @@
 			dependencies = (
 			);
 			name = Venmo;
+			packageProductDependencies = (
+				B2267A0C2BD96DF900F3C531 /* Realm */,
+				B2267A0E2BD96DF900F3C531 /* RealmSwift */,
+			);
 			productName = Venmo;
 			productReference = B2BC1C0F2BD4378D00E49291 /* Venmo.app */;
 			productType = "com.apple.product-type.application";
@@ -120,7 +156,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					B2BC1C0E2BD4378D00E49291 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -136,6 +172,9 @@
 				Base,
 			);
 			mainGroup = B2BC1C062BD4378D00E49291;
+			packageReferences = (
+				B2267A0B2BD96DF900F3C531 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = B2BC1C102BD4378D00E49291 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -150,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2BC1C1A2BD4379000E49291 /* Preview Assets.xcassets in Resources */,
 				B2BC1C172BD4379000E49291 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,10 +201,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2BC1C232BD438C000E49291 /* Expenses.swift in Sources */,
+				B2267A112BD97D5B00F3C531 /* RealmManager.swift in Sources */,
 				B2BC1C152BD4378D00E49291 /* ContentView.swift in Sources */,
+				B2267A182BD9887200F3C531 /* Color.swift in Sources */,
 				B2BC1C132BD4378D00E49291 /* VenmoApp.swift in Sources */,
 				B2BC1C252BD438E600E49291 /* Reports.swift in Sources */,
 				B2BC1C282BD7135A00E49291 /* Settings.swift in Sources */,
+				B2267A152BD97EE100F3C531 /* Expense.swift in Sources */,
+				B2BC1C2A2BD7179B00E49291 /* Categories.swift in Sources */,
+				B2BC1C2D2BD8204300E49291 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +252,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -269,6 +313,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -365,6 +410,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2267A0B2BD96DF900F3C531 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2267A0C2BD96DF900F3C531 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2267A0B2BD96DF900F3C531 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		B2267A0E2BD96DF900F3C531 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2267A0B2BD96DF900F3C531 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2BC1C072BD4378D00E49291 /* Project object */;
 }

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var realmManager = RealmManager()
+    
     var body: some View {
         TabView {
             Expenses()
@@ -26,6 +28,7 @@ struct ContentView: View {
                 }
             
             Settings()
+                .environmentObject(realmManager)
                 .tabItem {
                     Label("Settings", systemImage: "gearshape.fill")
                 }
@@ -34,11 +37,6 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            ContentView()
-                .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
-        }
-    }
+#Preview {
+    ContentView()
 }
