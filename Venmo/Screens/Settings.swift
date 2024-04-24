@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Settings: View {
+    
     var body: some View {
         NavigationView {
             List {
@@ -30,9 +31,6 @@ struct Settings: View {
     }
 }
 
-struct Settings_Previews: PreviewProvider {
-    static var previews: some View {
-        Settings()
-            .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
-    }
+#Preview {
+    Settings()
 }
